@@ -1,4 +1,6 @@
 ## Phase 2 Week2 Day 2
+http://www.mkyong.com/jquery/how-to-add-remove-textbox-dynamically-with-jquery/
+
 ### Closure
 
 - function that keeps reference
