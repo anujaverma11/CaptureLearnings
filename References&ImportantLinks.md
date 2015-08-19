@@ -1,0 +1,6 @@
+[Ruby Rack](http://rack.github.io/)
+[Activerecords querying the database](http://guides.rubyonrails.org/active_record_querying.html)
+[Sinatra Web Framework](http://www.sinatrarb.com/)
+[Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby-o)
+[Prezi - Create beautiful Presentation](https://prezi.com/business-1/?gclid=Cj0KEQjw6cCuBRCh4KrGoJ6LoboBEiQAwzYsdHupLWF70PrK7uXRUNcIgOzGgFacOo6dNGy-VPd_vjoaAh6f8P8HAQ&c3api=7659%2C64217451531%2Cprezi%2Ce)
+[Data Driven Documents](http://d3js.org/)
