@@ -109,5 +109,12 @@ We are expecting a JSON type of data
 
 
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~w3School~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Asynchronus Javascript and XML
+Update parts of Webpage without reloading the whole page.
+
+The keystone of AJAX is the XMLHttpRequest object
+
 
 

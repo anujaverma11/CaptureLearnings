@@ -28,19 +28,13 @@ Load JQuery in your HTML
 <h2>Travel Destinations</h2>
 <p>Plan your next adventure</p>
 <ul id="destinations"
-
-
-
 ```
 
-
-
-### DOM (Document Pbject Model)
+### DOM (Document Object Model)
 DOM is a tree like structure created by browsers so we can quickly find HTMLelements using JS.
-
-Inorder to interact with DOM all browsers use JS.
-
+Inorder to interact with DOM all browsers use JavaScript.
 We need to make sure the DOM is finished loading before we use any JQuery on the page.
+DOM of various browser interact in different ways, so instead of interacting with them with JS, Jquery is used as they all understand JQuery.
 
 #### To change an element
 ```
@@ -92,6 +86,13 @@ parent is destination, li is descendents. (All direct descendents)
 $("#destination, .promo")
 
 
+
+
+## Searching the DOM -
+
+$("#destinations li") - here destinations is parent and li is all descendants of destination.
+$("#destinations > li") - here destinations is parent and li is only child of parent which are direct descendants.
+
 #### Pseudo Selector
 
 #("destinations li:first")
@@ -99,21 +100,18 @@ $("#destination, .promo")
 #("destinations li:even")
 #("destinations li:odd")
 
+$("#destinations li:first") to select only the first item in the list. :last for last item.
+
 ## Traversing the DOM
 
 $('#destinations').find('li').last();
 $("#vacations").find("li").last();
 
-- Using find with DOM item
+here ('#destinations') is selection and find('li') is traversing. Traversing takes a little bit more code time but its faster.
 
-Traversing takes a little more time but its faster.
+- Walking the DOM
 
-
-#### Walking the DOM
-
-$('li').first().next().prev();
-
-This is called method chaining.
+$('li').first().next().prev(); (This is called method chaining.)
 
 #### Walking up the DOM
 
@@ -126,7 +124,7 @@ $('#destinations').children("li");
 Will select only direct descendents.
 
 
-#### Appending to the DOM
+## Appending to the DOM
 
 Create a new paragraph.
 
@@ -136,11 +134,11 @@ $(document).ready(function(){
   $('.vacation').appand(price);
   $('button').remove();
 });
-
-
 ```
 
 .append(<variable>)
+-
+
 .prepend(<variable>)
 .after(<variable>)
 .before(<variable>)
